@@ -1,0 +1,36 @@
+# --- Python ---
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+.env
+.pytest_cache/
+.mypy_cache/
+.ipynb_checkpoints/
+
+# --- C / C++ / microcontrolador ---
+build/
+.pio/
+.pioenvs/
+.piolibdeps/
+*.o
+*.elf
+*.bin
+*.hex
+
+# --- Editores y sistema ---
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# --- Datos de vuelo y registros ---
+# Los registros de vuelo no van al repo: pesan y se duplican.
+# Si un registro hace falta para explicar un cambio, se enlaza desde el Drive.
+*.log
+*.ulg
+*.bin.log
+logs/
+datos/
+flights/

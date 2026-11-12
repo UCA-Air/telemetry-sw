@@ -1,0 +1,12 @@
+# Quién revisa qué.
+# GitHub pide revisión automáticamente a estas personas en cada pull request.
+#
+# Conviene usar equipos de la organización en vez de usuarios sueltos: así, cuando
+# alguien entra o sale, se cambia en un único sitio.
+#
+# Equipo responsable: Ángel y Javi
+
+*       @UCA-Air/telemetria
+
+# Si prefieres nombrar personas, sustituye la línea de arriba por sus usuarios:
+# *     @usuario1 @usuario2
